@@ -22,6 +22,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database-scripts", "databas
 		database-scripts\README.md = database-scripts\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{AF440155-26BC-4377-BE0D-B73ADC01D34D}"
+	ProjectSection(SolutionItems) = preProject
+		database-scripts\01-create\database\Dev.sql = database-scripts\01-create\database\Dev.sql
+		database-scripts\01-create\database\README.md = database-scripts\01-create\database\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "table", "table", "{BFCABFC1-752A-463A-B1DB-B1406914AC45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-alter", "02-alter", "{A66E5F18-24D2-438E-953C-75C66A067EEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-create", "01-create", "{9E512064-6E87-45BD-948E-D2FE87DDEB36}"
+	ProjectSection(SolutionItems) = preProject
+		database-scripts\01-create\README.md = database-scripts\01-create\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stored-procedure", "stored-procedure", "{B636F9AF-ED86-4D21-AF0F-7058F7256DCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stored-procedure", "stored-procedure", "{1D3BBD8E-5DCC-44A3-8778-3CA9EF5DB6B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +61,12 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BFF71DAE-709C-431C-AED4-5E1A35CA1900} = {E90A05DE-674E-4E6E-AF32-D4B636046CD4}
+		{AF440155-26BC-4377-BE0D-B73ADC01D34D} = {9E512064-6E87-45BD-948E-D2FE87DDEB36}
+		{BFCABFC1-752A-463A-B1DB-B1406914AC45} = {9E512064-6E87-45BD-948E-D2FE87DDEB36}
+		{A66E5F18-24D2-438E-953C-75C66A067EEB} = {07B4781F-B46D-475E-9099-44382147ADBA}
+		{9E512064-6E87-45BD-948E-D2FE87DDEB36} = {07B4781F-B46D-475E-9099-44382147ADBA}
+		{B636F9AF-ED86-4D21-AF0F-7058F7256DCA} = {9E512064-6E87-45BD-948E-D2FE87DDEB36}
+		{1D3BBD8E-5DCC-44A3-8778-3CA9EF5DB6B5} = {A66E5F18-24D2-438E-953C-75C66A067EEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {873DCCA0-1644-43FA-B412-CD2C2AF9930F}
