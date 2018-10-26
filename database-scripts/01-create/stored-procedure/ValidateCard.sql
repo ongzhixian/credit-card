@@ -12,7 +12,10 @@ GO
 -- Author:		Ong Zhi Xian
 -- Create date: 2018-10-25
 -- Description:	Validate credit card
--- ValidateCard 
+-- Sample execution:
+-- EXECUTE ValidateCard @pNumber, @pExpiryDate, @result OUT, @cardType;
+-- @result		= 1 = Valid, 0 = Invalid, NULL = Does not exist
+-- @cardType	= 0 = Visa, 1 = Master, 2 = Amex, 3 = JCB or NULL = Unknown
 -- =============================================
 CREATE PROCEDURE [dbo].[ValidateCard] 
 	-- Add the parameters for the stored procedure here
@@ -25,10 +28,25 @@ AS
 BEGIN
 	SET NOCOUNT ON;
 
+	----------------------------------------
+	-- Declare and initialize local variables
+	----------------------------------------
+	DECLARE
+		@number		BIGINT	= @pNumber,
+		@expiryDate	DATE	= @pExpiryDate;
 
-    -- Insert statements for procedure here
-	--SELECT @pNumber, @pExpiryDate
-	SELECT @result = 1, @cardType = 2
+	
+	-- TODO: The validation logic to start here
+
+	----------------------------------------
+	-- Parameter checking
+	----------------------------------------
+
+
+	----------------------------------------
+	-- Set OUTPUT variables
+	----------------------------------------
+	SELECT @result = NULL, @cardType = NULL;
 
 END
 GO

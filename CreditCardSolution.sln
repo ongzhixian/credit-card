@@ -42,6 +42,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-create", "01-create", "{
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stored-procedure", "stored-procedure", "{B636F9AF-ED86-4D21-AF0F-7058F7256DCA}"
+	ProjectSection(SolutionItems) = preProject
+		database-scripts\01-create\stored-procedure\README.md = database-scripts\01-create\stored-procedure\README.md
+		database-scripts\01-create\stored-procedure\ValidateCard.sql = database-scripts\01-create\stored-procedure\ValidateCard.sql
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stored-procedure", "stored-procedure", "{1D3BBD8E-5DCC-44A3-8778-3CA9EF5DB6B5}"
 EndProject
