@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationService", "Valida
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationService.Tests", "ValidationService.Tests\ValidationService.Tests.csproj", "{A2039CD9-58BA-4069-A945-D618E2CEDE83}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_documents", "_documents", "{E90A05DE-674E-4E6E-AF32-D4B636046CD4}"
+	ProjectSection(SolutionItems) = preProject
+		_documents\README.md = _documents\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-requirements", "01-requirements", "{BFF71DAE-709C-431C-AED4-5E1A35CA1900}"
+	ProjectSection(SolutionItems) = preProject
+		_documents\01-requirements\Software Architect Test 08102018.pdf = _documents\01-requirements\Software Architect Test 08102018.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +34,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFF71DAE-709C-431C-AED4-5E1A35CA1900} = {E90A05DE-674E-4E6E-AF32-D4B636046CD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {873DCCA0-1644-43FA-B412-CD2C2AF9930F}
