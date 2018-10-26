@@ -29,6 +29,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{AF
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "table", "table", "{BFCABFC1-752A-463A-B1DB-B1406914AC45}"
+	ProjectSection(SolutionItems) = preProject
+		database-scripts\01-create\table\Card.sql = database-scripts\01-create\table\Card.sql
+		database-scripts\01-create\table\README.md = database-scripts\01-create\table\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-alter", "02-alter", "{A66E5F18-24D2-438E-953C-75C66A067EEB}"
 EndProject
